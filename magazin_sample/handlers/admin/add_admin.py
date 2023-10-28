@@ -4,7 +4,7 @@ from loader import dp
 from handlers.user.menu import add_admin
 from filters import IsAdmin
 from aiogram.utils.callback_data import CallbackData
-from magazin_sample.app import Admins
+from app import Admins
 
 from magazin_sample.keyboards.default.markups import submit_markup, cancel_message, all_right_message
 
