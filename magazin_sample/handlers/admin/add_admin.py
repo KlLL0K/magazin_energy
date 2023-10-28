@@ -6,7 +6,7 @@ from filters import IsAdmin
 from aiogram.utils.callback_data import CallbackData
 from app import Admins
 
-from magazin_sample.keyboards.default.markups import submit_markup, cancel_message, all_right_message
+from keyboards.default.markups import submit_markup, cancel_message, all_right_message
 
 ad_cb = CallbackData('admin', 'action')
 
